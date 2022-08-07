@@ -1,0 +1,19 @@
+body {color: #8b8b8b; background-color: #fff;}
+a:link, a:visited {color: #cc3333;}
+a:hover, a:focus, a:active {color: #cc3333;}
+.titleBorder {border-bottom: dotted 2px #8b8b8b;}
+.error {color: #fff; background-color: #AE070A;}
+ul.navigation {background: #fcfcfc; border-top: solid 1px #e1e1e1; border-bottom: solid 1px #e1e1e1;}
+ul.navigation li.spacer {background: #cc3333 url(../../images/bullet.png) center center no-repeat;}
+div#wrpContainer div#sidebar ul.menu li a {color: #8b8b8b;}
+div#wrpContainer div#sidebar ul.menu li a:hover {color: #cc3333;}
+div#wrpContainer div#sidebar div.available {background-color: #e4ded0;}
+div#wrpContainer div#sidebar div.available div.live {background-color: #cc3333;}
+div#wrpContainer div#content {border-left: solid 1px #e1e1e1;}
+div#wrpContainer form.formStyle h3 {color: #8b8b8b;}
+div#wrpContainer form.formStyle input {border: solid 1px #CCCCCC;}
+div#wrpContainer form.formStyle textarea {border: solid 1px #CCCCCC;}
+div#wrpContainer form.formStyle input:hover, div#wrpContainer form.formStyle textarea:hover {border-color: #8b8b8b;}
+div#wrpContainer form.formStyle div.wrpButton input.button {background-color: #cc3333; color: #fff;}
+div#wrpContainer form.formStyle div.wrpButton input.button:hover {background-color: #CCCCCC; color: #000;}
+.link {color: #cc3333 !important;}

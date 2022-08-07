@@ -1,0 +1,83 @@
+@charset "UTF-8";
+html, body, p, ul, li, dl, dt, dd, h1, h2, h3, h4, img, form {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+input, select, textarea, label {margin: 0; padding: 0; font-size: 100%; vertical-align: middle; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+textarea {resize:none;}
+
+ul {list-style: none;}
+
+ol li {margin-bottom: 10px;}
+
+/** global **/
+html {overflow-y: scroll;}
+body {font: normal normal 12px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #8b8b8b; background-color: #f3f3f3;}
+
+a:link, a:visited {color: #5b5b5b; text-decoration: none;}
+a:hover, a:focus, a:active {color: #5b5b5b;}
+
+h1 {font-size: 16px; margin-bottom: 5px;  color: #5b5b5b;}
+h3 {text-transform: uppercase; color: #5b5b5b;}
+p {margin-bottom: 10px; line-height: 20px;}
+
+.error {color: #fff; border: solid 1px #B60003; background-color: #B60003;}
+
+.titleBorder {border-bottom: dotted 2px #8b8b8b; margin-bottom: 15px; padding-bottom: 5px;}
+.topMargin {margin-top: 20px;}
+
+div.footer {padding: 20px 0;}
+
+div.intro {margin-bottom: 20px;}
+
+div.wrpSite {position: relative; width: 945px; margin: 0 auto;}
+div.pageTitle {height: 50px; line-height: 50px; font-size: 16px;}
+
+div.text h1 {font-size: 28px; }
+div.text p {font-size: 16px; line-height: 28px; margin-bottom: 25px;}
+
+div#wrpHeader {height: 70px; background-color: #1b1b1b;}
+div#wrpHeader div.logo {position: absolute; left: 0; top: 0;}
+div#wrpHeader div.openHours {position: absolute; right: 0; top: 0; line-height: 70px; font-size: 32px; font-weight: bold; font-style: italic; letter-spacing: 2px; color: #5b5b5b;}
+div#wrpHeader div.openHours span {font-weight: normal; letter-spacing: normal; color: #fff;}
+
+div#wrpNavigation {height: 80px; background-color: #fff;}
+ul.navigation {}
+ul.navigation li {display: inline-block; padding-top: 18px; margin-right: 46px;}
+ul.navigation li a {display: inline-block; line-height: 47px; font-size: 18px; letter-spacing: 1px; color: #8b8b8b;}
+ul.navigation li a span {display: inline-block; height: 47px; width: 47px; margin-right: 5px; vertical-align: middle; background-color: #5b5b5b;}
+
+div#wrpContainer {padding-bottom: 20px; overflow: hidden;}
+
+div#wrpContainer div#content {float: left; width: 700px;}
+div#wrpContainer div#content div.cntBackground {border: solid 20px #fcfcfc; background-color: #fff; -webkit-border-radius: 3px; border-radius: 3px; padding: 10px; height: auto !important; height: 650px; min-height: 650px;}
+
+div#wrpContainer div#sidebar {float: right; width: 225px;}
+div#wrpContainer div#sidebar ul.menu {margin-bottom: 30px;}
+div#wrpContainer div#sidebar ul.menu li {}
+div#wrpContainer div#sidebar ul.menu li a {display: block; background-color: #fcfcfc; -webkit-border-radius: 3px; border-radius: 3px; padding: 10px; margin-bottom: 5px; font-size: 16px;}
+div#wrpContainer div#sidebar ul.menu li a:hover {background-color: #fff;}
+
+div#wrpContainer div#sidebar div.available {text-align: center; border-top: dotted 2px #8b8b8b;  border-bottom: dotted 2px #8b8b8b; padding: 20px 0 35px 0; margin-bottom: 30px;}
+div#wrpContainer div#sidebar div.available span {display: block;}
+div#wrpContainer div#sidebar div.available span.txtHours {font-size: 82px; line-height: 82px; font-weight: bold; font-style: italic; letter-spacing: 4px; color: #5b5b5b;}
+div#wrpContainer div#sidebar div.available span.txtAvailable {text-transform: uppercase; font-size: 36px; line-height: 36px; margin-top: -5px;}
+div#wrpContainer div#sidebar div.available span.txtPhone {font-size: 27px; line-height: 27px; color: #5b5b5b; }
+
+div#wrpContainer div#sidebar div.live {}
+div#wrpContainer div#sidebar div.live a {display: block; text-align: center;}
+div#wrpContainer div#sidebar div.live a span {display: block;}
+div#wrpContainer div#sidebar div.live a span.image  {width: 150px; height: 150px; margin: 0 auto; -webkit-border-radius: 75px; border-radius: 75px;  background: #5b5b5b url(../../images/phone.png) center center no-repeat;}
+div#wrpContainer div#sidebar div.live a span.txtLive {font-size: 36px; color: #8b8b8b; text-transform: capitalize;}
+div#wrpContainer div#sidebar div.live a span.txtLive2 {font-size: 31px; color: #8b8b8b; text-transform: capitalize;}
+div#wrpContainer div#sidebar div.live a span.txtClick {font-size: 14px;}
+
+div#wrpContainer form.formStyle {margin-top: 20px;}
+div#wrpContainer form.formStyle h3 {color: #8b8b8b;}
+div#wrpContainer form.formStyle label {display: inline-block; margin-bottom: 5px; width: 120px; padding-left: 20px;}
+div#wrpContainer form.formStyle input {margin-bottom: 10px; padding: 5px; border: solid 1px #CCCCCC; width: 250px;}
+div#wrpContainer form.formStyle select {margin-bottom: 10px; padding: 5px; border: solid 1px #CCCCCC; width: 250px;}
+div#wrpContainer form.formStyle textarea {margin-bottom: 10px; border: solid 1px #CCCCCC; padding: 5px; width: 480px; height: 200px;}
+div#wrpContainer form.formStyle input:hover, div#wrpContainer form.formStyle textarea:hover {border-color: #8b8b8b;}
+div#wrpContainer form.formStyle div.row {float: none; clear: both; overflow: hidden;}
+div#wrpContainer form.formStyle div.wrpButton {text-align: right; margin-right: 5px;}
+div#wrpContainer form.formStyle div.wrpButton input.button {-webkit-border-radius: 3px; border-radius: 3px; padding: 10px; width: 100px; cursor: pointer; background-color: #5b5b5b;}
+div#wrpContainer form.formStyle div.wrpButton input.button:hover {background-color: #CCCCCC;}
+.link {color: #cc3333 !important;}
